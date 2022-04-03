@@ -248,7 +248,6 @@ a.social:hover {
 }
 
 @media screen and (max-width: 767px) {
-
   header {
     min-height: 470px;
   }
@@ -271,5 +270,4 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-}
 }

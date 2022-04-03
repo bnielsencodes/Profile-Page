@@ -1,2 +1,3 @@
 # techdegree-project-1
- Mystery first Techdegree project
+
+My first Techdegree project
