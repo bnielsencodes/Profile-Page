@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #0399ff;
 }
 
 /* Section Styles */
@@ -29,6 +29,7 @@ a:hover {
   min-height: 30px;
   padding: 10px;
   position: fixed;
+  top: 0;
   text-align: center;
 }
 .nav {
@@ -125,7 +126,7 @@ header .profile-image:hover {
 }
 
 .interests-card {
-  margin: 124px 30px 30px;
+  margin: 90px 30px 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -134,6 +135,7 @@ header .profile-image:hover {
   border-right: 4px solid #ccc;
   border-radius: 10px;
   transition: all 0.5s;
+  z-index: 2;
 }
 .interests-card:hover {
   border-color: #0399ff;
@@ -145,6 +147,64 @@ ul.interests {
 
 ul.interests li {
   font-size: 20px;
+}
+
+main.flex {
+  position: relative;
+  top: 56px;
+  padding-bottom: 100px;
+}
+
+#collage-one {
+  position: absolute;
+  display: inline;
+  left: -95px;
+  top: 95px;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  height: auto;
+  z-index: 1;
+}
+
+#collage-two {
+  position: absolute;
+  display: inline;
+  right: -95px;
+  top: 50px;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  height: auto;
+  z-index: 0;
+}
+
+.collage-pics {
+  border: 5px solid #0399ff;
+}
+
+#collage-pic-one {
+  width: 35%;
+}
+
+#collage-pic-two {
+  width: 35%;
+}
+
+#collage-pic-three {
+  width: 35%;
+}
+
+#collage-pic-four {
+  width: 35%;
+}
+
+#collage-pic-five {
+  width: 35%;
+}
+
+#collage-pic-six {
+  width: 35%;
 }
 
 ul.skills {
@@ -213,7 +273,7 @@ figcaption.project-title:hover {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 80px 0 40px 20px;
 }
 
 footer .copyright {
@@ -277,10 +337,6 @@ a.social:hover {
     padding: 0 30px;
   }
 
-  main {
-    padding-top: 20px;
-  }
-
   main p {
     line-height: 1.6em;
   }
@@ -302,10 +358,6 @@ a.social:hover {
     padding: 0 30px;
   }
 
-  main {
-    padding-top: 20px;
-  }
-
   main p {
     line-height: 1.6em;
   }
@@ -314,5 +366,9 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+  #collage-one,
+  #collage-two {
+    display: none;
   }
 }
