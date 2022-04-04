@@ -126,7 +126,7 @@ header .profile-image:hover {
 }
 
 .interests-card {
-  margin: 90px 30px 30px;
+  margin: 130px 30px 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -184,27 +184,27 @@ main.flex {
 }
 
 #collage-pic-one {
-  width: 35%;
+  width: 45%;
 }
 
 #collage-pic-two {
-  width: 35%;
+  width: 45%;
 }
 
 #collage-pic-three {
-  width: 35%;
+  width: 45%;
 }
 
 #collage-pic-four {
-  width: 35%;
+  width: 45%;
 }
 
 #collage-pic-five {
-  width: 35%;
+  width: 45%;
 }
 
 #collage-pic-six {
-  width: 35%;
+  width: 45%;
 }
 
 ul.skills {
