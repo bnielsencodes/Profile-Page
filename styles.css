@@ -155,6 +155,12 @@ main.flex {
   top: 56px;
 }
 
+main.flex-interests {
+  position: relative;
+  top: 56px;
+  padding-bottom: 100px;
+}
+
 #collage-one {
   position: absolute;
   display: inline;
@@ -321,6 +327,15 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 768px) {
   .flex {
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .flex-interests {
     display: -ms-flexbox; /* TWEENER - IE 10 */
     display: flex;
     max-width: 1200px;
