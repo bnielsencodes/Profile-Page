@@ -1,3 +1,3 @@
-# techdegree-project-1
+# profile-page
 
 My first Techdegree project
